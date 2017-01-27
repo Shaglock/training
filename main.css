@@ -10,13 +10,13 @@ body {
     background: #fff;
 }
 
-.cf::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
-.cf-visible:after {
+.clearfix-visible:after {
     content: "";
     display: table;
     clear: both;
@@ -193,7 +193,7 @@ footer img {
   line-height: 1.2;
   text-align: left;
 }
-.player-text{
+.holder__text{
   float: left;
   width: 50%;
   font-size: 1.8em;
