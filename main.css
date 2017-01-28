@@ -150,14 +150,14 @@ footer img {
   padding: 5px 0;
   vertical-align: middle;
 }
-.section2 {
+.features {
   position: relative;
   background: url(images/background2.png) no-repeat;
   background-size: cover;
   box-shadow: 0px 0px 0.3em 0.3em rgba(0, 0, 0, 0.26);
 }
 
-.section2__items {
+.features__item {
   float: left;
   padding: 2.3em 0;
   border-right:1px solid #ccc;
@@ -165,11 +165,11 @@ footer img {
   width: 33.33333333%;
 }
 
-.section2__items:first-child {
+.features__items:first-child {
   border-left:1px solid #ccc;
 }
 
-.section2__items span {
+.features__items span {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
   color: black;
   text-transform: uppercase;
@@ -180,11 +180,11 @@ footer img {
   font-weight:100;
 }
 
-.section3 {
+.general-content {
   background: url(images/banner2.png) no-repeat;
   background-size: cover;
 }
-.section3 h3 {
+.general-content h3 {
   padding: 1.1em 0;
   font-size: 2.3em;
   font-family: "PT Sans";
@@ -204,7 +204,7 @@ footer img {
   background:#ec9e03;
   font-weight: lighter;
 }
-.section3 .container {
+.general-content .container {
   padding-bottom: 5em;
 }
 .holder {
@@ -231,13 +231,13 @@ footer img {
 	text-align:center;
 }
 
-.section4 {
+.advantages {
   background: url(images/banner3.png) no-repeat;
   background-size: cover;
   padding-bottom: 6.6em;
 }
 
-.section4 h3 {
+.advantages h3 {
   padding: 1.2em 0;
   color:#f5c506;
   font-size:2.7em;
@@ -256,11 +256,11 @@ footer img {
   left: -1.5em;
   top: -2.5em;
 }
-.section4 ul {
+.advantages ul {
   float:left;
   width: 41.66666667%;
 }
-.section4 ul li{
+.advantages ul li{
   font-size: 1.375em;
   font-family: "Open Sans";
   color: #a9a9a7;

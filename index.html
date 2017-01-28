@@ -13,82 +13,109 @@
   </head>
   <body>
     <!-- start header -->
-    <header>
+    <header class="header">
       <div class="container clearfix">
-        <div class="logo">
-          <a href="index.html"><img src="images/logo.png" alt="Theyalow"/></a>
-          <span class="logo-text">Theyalow</span>
+        <div class="header__logo">
+          <div class="logo">
+            <a href="index.html"><img class="logo__image"src="images/logo.png" alt="Theyalow"/></a>
+            <span class="logo__text">Theyalow</span>
+          </div>
+          <span class="header-logo__text">craft by css author.com</span>
         </div>
-        <nav>
-          <ul>
-            <li><span class="icon-user"></span>About us</li>
-            <li><span class="icon-wrench"></span>Services</li>
-            <li><span class="icon-envelope"></span>Contact</li>
-          </ul>
+        <nav class="header__navigation">
+          <div class="navigation">
+            <ul class=navigation__list>
+              <li class="navigation__list-item">
+                <span class="navigation__icon icon-user"></span>
+                <span class="navigation__text">About us</span>
+              </li>
+              <li class="navigation__list-item">
+                <span class="navigation__icon icon-wrench"></span>
+                <span class="navigation__text">Services</span>
+              </li>
+              <li class="navigation__list-item">
+                <span class="navigation__icon icon-envelope"></span>
+                <span class="navigation__text">Contact</span>
+              </li>
+            </ul>
+          </div>
         </nav>
-      </div>
-      <div class="player-container clearfix">
-        <div class="player">
-          <iframe  height="400" src="https://www.youtube.com/embed/X7rhovBK_eA" allowfullscreen></iframe>
+        <iframe class="header__video" width="550" height="330"  src="https://www.youtube.com/embed/X7rhovBK_eA" allowfullscreen></iframe>
+        <div class="header__text">
+            <span class="header__text--primary">The cool</span>
+            <br>
+            <span class="header__text--secondary">The minimal</span>
         </div>
-          <h2 class="cool-text"><span>The cool</span> The minimal</h2>
       </div>
     </header>
     <!-- end header -->
-    <section class="section2 clearfix">
-      <div class="container clearfix">
-        <div class="section2__items">
-          <!-- <img src="images/cloud2.png" alt="" /> -->
-          <span class="icon-cloud"></span><span>better design</span>
-        </div>
-        <div class="section2__items">
-          <!-- <img src="images/customise.png" alt="" /> -->
-          <span class="icon-leaf"></span><span>customise</span>
-        </div>
-        <div class="section2__items">
-          <!-- <img src="images/itsfreee.png" alt="" /> -->
-          <span class="icon-plane"></span><span>its free</span>
-        </div>
-      </div>
-    </section>
-    <!--  -->
-    <section class="section3">
-      <div class="container clearfix">
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <div class="holder">
-          <div class="holder__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+    <main class="main">
+      <section class="features clearfix">
+        <div class="container clearfix">
+          <div class="features__item">
+            <span class="features__icon icon-cloud"></span>
+            <br>
+            <span class="features__text">better design</span>
           </div>
-          <div class="holder__player">
-            <iframe height="232em" src="https://www.youtube.com/embed/X7rhovBK_eA" allowfullscreen></iframe>
+          <div class="features__item">
+            <span class="features__icon icon-leaf"></span>
+            <br>
+            <span class="features__text">customise</span>
+          </div>
+          <div class="features__item">
+            <span class="features__icon icon-plane"></span>
+            <br>
+            <span class="features__text">its free</span>
           </div>
         </div>
-        <div class="twitter">
-          <span class="icon-twitter"></span>
+      </section>
+      <!--  -->
+      <section class="general-content">
+        <div class="container clearfix">
+          <h3 class="general-content__header">Lorem ipsum dolor sit amet</h3>
+          <div class="holder">
+            <div class="holder__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            </div>
+            <div class="holder__player">
+              <iframe height="232em" src="https://www.youtube.com/embed/X7rhovBK_eA" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="twitter">
+            <span class="icon-twitter"></span>
+          </div>
         </div>
-      </div>
-    </section>
-    <!--  -->
-    <section class="section4">
-      <div class="container clearfix">
-          <h3>Lorem ipsum dolor sit amet</h3>
-        <div class="devices">
-          <img class="free-circle" src="images/itsfree2.png" alt="It's 100% free">
-          <img src="images/devices.png" alt="devices">
+      </section>
+      <!--  -->
+      <section class="advantages">
+        <div class="container clearfix">
+          <h3 class="advantages__header">Lorem ipsum dolor sit amet</h3>
+          <div class="advantages__devices">
+              <div class="devices">
+                  <img class="devices__free" src="images/itsFreeIcon.png">
+                  <img class="devices__desktop" src="images/desktopIcon.png">
+                  <img class="devices__tablet" src="images/tabletIcon.png">
+                  <img class="devices__mobile" src="images/mobileIcon.png">
+              </div>
+          </div>
+          <div class="advantages__list-container">
+              <ul class="advantages-list">
+                  <li class="advantages-list__item"><span class="advantages-list__text">Sed ut perspiciatis, unde omnis</span></li>
+                  <li class="advantages-list__item"><span class="advantages-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing</span></li>
+                  <li class="advantages-list__item"><span class="advantages-list__text">Sed ut perspiciatis, unde omnis</span></li>
+                  <li class="advantages-list__item"><span class="advantages-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing</span></li>
+              </ul>
+          </div>
         </div>
-        <ul>
-          <li>Sed ut perspiciatis unde omnis</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-          <li>Sed ut perspiciatis unde omnis</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
-        </ul>
-      </div>
-    </section>
+      </section>
+    </main>
     <!-- start footer -->
-    <footer>
-      <div class="logo-text">
-        <a href="index.html"><img src="images/footer_logo.png" alt="TheYalow"/></a>
-        <span>Theyalow</span>
+    <footer class="footer">
+      <div class="footer__logo">
+        <div class="logo">
+          <a href="index.html"><img class="logo__image logo__image_small"src="images/logo.png" alt="Theyalow"/></a>
+          <span class="logo__text">Theyalow</span>
+        </div>
       </div>
     </footer>
     <!-- end footer -->
