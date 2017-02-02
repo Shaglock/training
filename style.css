@@ -3,11 +3,11 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('fonts/icomoon.eot?g9mdii#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?g9mdii') format('truetype'),
-    url('fonts/icomoon.woff?g9mdii') format('woff'),
-    url('fonts/icomoon.svg?g9mdii#icomoon') format('svg');
-    src: url('fonts/icomoon.eot?g9mdii');
+    src: url('fonts/icomoon.eot?tu9dqc');
+    src: url('fonts/icomoon.eot?tu9dqc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tu9dqc') format('truetype'),
+    url('fonts/icomoon.woff?tu9dqc') format('woff'),
+    url('fonts/icomoon.svg?tu9dqc#icomoon') format('svg');
 }
 
 [class^='icon-'],
@@ -17,6 +17,7 @@
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
+    line-height: 1;
 
     text-transform: none;
     /* Better Font Rendering =========== */
@@ -26,8 +27,17 @@
     speak: none;
 }
 
+.icon-cloud:before {
+    content: '\e900';
+}
+.icon-plane:before {
+    content: '\e901';
+}
+.icon-leaf:before {
+    content: '\e902';
+}
 .icon-envelope:before {
-    content: '\e945';
+    content: '\e903';
 }
 .icon-user:before {
     content: '\e971';
@@ -40,13 +50,4 @@
 }
 .icon-twitter:before {
     content: '\ea96';
-}
-.icon-cloud:before {
-    content: '\e900';
-}
-.icon-plane:before {
-    content: '\e901';
-}
-.icon-leaf:before {
-    content: '\e902';
 }
