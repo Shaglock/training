@@ -1,26 +1,26 @@
 .advantages {
-  width: 100%;
-  padding-top: 35px;
-  padding-bottom: 75px;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 75px;
 
-  background: url(images/banner3.png) no-repeat;
-  background-size: cover;
+    background: url(images/banner3.png) no-repeat;
+    background-size: cover;
 }
 
 .advantages__header {
-  font-family: "PT Sans", sans-serif;
-  font-size: 2.7rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.7rem;
 
+    text-align: center;
+    text-transform: uppercase;
 
-  text-align: center;
-  text-transform: uppercase;
-
-  color: var(--main-yellow);
+    color: var(--main-yellow);
 }
 
 .advantages__devices {
-  float: left;
-  margin-top: 37px;
+    float: left;
+
+    margin-top: 37px;
 }
 
 .advantages__list-container {

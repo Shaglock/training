@@ -5,8 +5,8 @@
 }
 
 .devices__free {
-  position: absolute;
-  top: 0;
+    position: absolute;
+    top: 0;
 }
 .devices__desktop {
     margin-left: 20px;

@@ -1,35 +1,37 @@
 .features {
-  box-sizing: border-box;
-  width: 100%;
-  position: relative;
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.26);
-  background-color: #ebebeb;
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 2px, #f2f2f2 2px, #f2f2f2 4px);
+    position: relative;
+
+    box-sizing: border-box;
+    width: 100%;
+
+    background-color: #ebebeb;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 2px, #f2f2f2 2px, #f2f2f2 4px);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.26);
 }
 
 .features__item {
-  padding-top: 20px;
-  padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
 
-  border-right: 1px solid #ccc;
+    border-right: 1px solid #cccccc;
 }
 
 .features__icon {
-  font-size: 4.1rem;
-  line-height: 142%;
+    font-size: 4.1rem;
+    line-height: 142%;
 
-  color: var(--main-yellow);
+    color: var(--main-yellow);
 }
 
 .features__text {
-  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-  font-size: 1.8rem;
-  font-weight: lighter;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    font-size: 1.8rem;
+    font-weight: lighter;
 }
 .features__item:first-child {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid #cccccc;
 }
