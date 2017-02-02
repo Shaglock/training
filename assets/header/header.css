@@ -1,0 +1,71 @@
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+    background: url('images/background.jpg') no-repeat;
+    background-size: cover;
+}
+
+.header__logo {
+    float: left;
+}
+.header-logo__text {
+    font-size: 0.8rem;
+
+    float: left;
+
+    margin-top: 50px;
+    margin-right: 7px;
+    margin-left: 5px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
+    opacity: 0.77;
+}
+
+.header__navigation {
+    float: right;
+
+    width: 44.3%;
+    margin-top: 40px;
+}
+
+
+.header__text {
+    font-family: 'Asap', sans-serif;
+    font-size: 4rem;
+    line-height: 117%;
+
+    float: left;
+
+    margin-top: 12.7%;
+    margin-left: 4.5%;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header__text_primary {
+    clear: right;
+
+    text-align: center;
+
+    color: var(--main-yellow);
+}
+
+.header__text_secondary {
+    text-align: justify;
+
+    color: white;
+}
+
+.header__video {
+    float: left;
+
+    margin-top: 50px;
+    margin-left: 10px;
+}

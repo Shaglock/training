@@ -128,7 +128,7 @@ h2.cool-text {
 }
 
 .cool-text span {
-    color: #f5c506;
+    color: var(--main-yellow);
     display: block;
 }
 
@@ -180,11 +180,11 @@ footer img {
   font-weight:100;
 }
 
-.general-content {
+.main-content {
   background: url(images/banner2.png) no-repeat;
   background-size: cover;
 }
-.general-content h3 {
+.main-content h3 {
   padding: 1.1em 0;
   font-size: 2.3em;
   font-family: "PT Sans";
@@ -204,7 +204,7 @@ footer img {
   background:#ec9e03;
   font-weight: lighter;
 }
-.general-content .container {
+.main-content .container {
   padding-bottom: 5em;
 }
 .holder {
@@ -239,7 +239,7 @@ footer img {
 
 .advantages h3 {
   padding: 1.2em 0;
-  color:#f5c506;
+  color:var(--main-yellow);
   font-size:2.7em;
   text-transform:uppercase;
   text-align:center;

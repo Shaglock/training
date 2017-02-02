@@ -17,15 +17,14 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
-
+  
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-envelope:before {
-  content: "\e903";
+  content: "\e945";
 }
 .icon-user:before {
   content: "\e971";
@@ -48,4 +47,3 @@
 .icon-leaf:before {
   content: "\e902";
 }
-

@@ -1,0 +1,74 @@
+.main-content {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 165px;
+
+    background-color: rgba(245, 197, 7, 0.88);
+    background-image:
+            linear-gradient(45deg, rgba(245, 197, 7, 1) 25%, transparent 25%, transparent 75%, rgba(245, 197, 7, 1) 75%, rgba(245, 197, 7, 1)),
+            linear-gradient(45deg, rgba(245, 197, 7, 1) 25%, transparent 25%, transparent 75%, rgba(245, 197, 7, 1) 75%, rgba(245, 197, 7, 1));
+    background-position: 0 0, 30px 30px;
+    background-size: 60px 60px;
+}
+
+.main-content__header {
+  font-family: "PT Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: lighter;
+
+  margin-bottom: 35px;
+
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.main-content__video {
+    float: left;
+}
+
+.main-content__text {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    font-size: 1.8rem;
+    font-weight: lighter;
+
+    color: white;
+}
+
+.main-content__icon-twitter {
+    font-size: 10rem;
+
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding-top: 15px;
+    display: block;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: #c18000;
+}
+
+.main-content__twitter {
+    position: relative;
+
+    float: right;
+
+    min-height: 235px;
+    padding-top: 15px;
+    padding-right: 20px;
+
+    text-align: right;
+
+    background-color: #ec9e03;
+}
+
+.main-content__icon-add {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+
+    color: white;
+    border: none;
+    background-color: transparent;
+}

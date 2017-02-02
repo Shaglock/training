@@ -1,0 +1,23 @@
+.devices {
+    position: relative;
+
+    padding-top: 40px;
+}
+
+.devices__free {
+  position: absolute;
+  top: 0;
+}
+.devices__desktop {
+    margin-left: 20px;
+}
+
+.devices__tablet {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.devices__mobile {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
