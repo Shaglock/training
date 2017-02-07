@@ -7,7 +7,9 @@
     background: url('images/background.jpg') no-repeat;
     background-size: cover;
 }
-
+.header__logo-container {
+    float: left;
+}
 .header__logo {
     float: left;
 }
@@ -68,4 +70,43 @@
 
     margin-top: 50px;
     margin-left: 10px;
+}
+@media all and (max-width: 1100px) {
+    .header {
+        padding: 0;
+    }
+
+    .header-logo__text {
+        display: none;
+    }
+
+    .header__logo-container {
+        box-sizing: border-box;
+        width: 29%;
+        padding: 9px 0;
+
+        background-color: #575757;
+    }
+
+    .header__navigation {
+        width: 71%;
+        margin: 0;
+    }
+
+    .header__text {
+        display: none;
+    }
+
+    .header__video {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header__logo {
+        float: none;
+
+        width: 160px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }

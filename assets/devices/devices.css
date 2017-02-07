@@ -21,3 +21,26 @@
     margin-bottom: 40px;
     margin-left: 20px;
 }
+@media all and (max-width: 1100px) {
+    .devices {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .devices__free {
+        width: 20%;
+    }
+    .devices__desktop {
+        width: 55%;
+    }
+    .devices__tablet {
+        width: 23%;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+    .devices__mobile {
+        width: 7%;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+}
