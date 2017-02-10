@@ -1,11 +1,11 @@
 .main-content {
-  position: relative;
+    position: relative;
 
-  overflow: hidden;
+    overflow: hidden;
 
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 165px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 165px;
 }
 
 .main-content__header {
@@ -99,10 +99,12 @@
     }
 
     .main-content__icon-add {
+        font-size: 9px;
+
         position: absolute;
         right: 6px;
         bottom: 20px;
-        font-size: 9px;
+
         color: white;
         border: none;
         background-color: transparent;

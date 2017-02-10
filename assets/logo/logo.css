@@ -52,12 +52,15 @@
     .logo__text {
         font-size: 1.23rem;
 
-        padding-top: 9px;
-        padding-left: 12px;
+        padding-top: 12px;
+        padding-left: 4px;
     }
 
     .logo__text_small {
         font-size: 16px;
+
+        padding-top: 9px;
+        padding-left: 12px;
     }
 }
 
@@ -70,7 +73,7 @@
     .logo__text {
         font-size: 0.6rem;
 
-        padding-left: 3px;
         padding-top: 5px;
+        padding-left: 3px;
     }
 }
