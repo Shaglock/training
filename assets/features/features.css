@@ -1,11 +1,11 @@
 .features {
     position: relative;
 
+    overflow: hidden;
+
     box-sizing: border-box;
     width: 100%;
 
-    background-color: #ebebeb;
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 2px, #f2f2f2 2px, #f2f2f2 4px);
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.26);
 }
 
@@ -58,4 +58,32 @@
     .features__item:first-child {
         border-left: none;
     }
+}
+
+@media all and (max-width: 639px) {
+    .features__text {
+        font-size: 0.8rem;
+    }
+    .features__icon {
+        font-size: 2rem;
+    }
+}
+
+.features:after {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+
+    display: block;
+
+    width: 2500px;
+
+    content: '';
+    transform: translateX(-50%);
+
+    background-color: #ebebeb;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 2px, #f2f2f2 2px, #f2f2f2 4px);
 }

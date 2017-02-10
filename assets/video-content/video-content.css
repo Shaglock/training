@@ -57,3 +57,13 @@
         width: 50%;
     }
 }
+
+@media all and (max-width: 639px) {
+    .main-content__icon-add{
+        font-size: 0.6rem;
+    }
+
+    .video-content__description {
+        padding: 15px;
+    }
+}

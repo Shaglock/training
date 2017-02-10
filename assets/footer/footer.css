@@ -1,8 +1,10 @@
 .footer {
+    position: relative;
+
     padding: 5px 0;
 
     background-color: #4c4c4c;
-    box-shadow: 0 4px 7px 7px black;
+    box-shadow: 0 4px 6px 6px black;
 }
 
 .footer__logo {

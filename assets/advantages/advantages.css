@@ -1,4 +1,7 @@
 .advantages {
+    position: relative;
+
+    overflow: hidden;
     width: 100%;
     padding-top: 35px;
     padding-bottom: 75px;
@@ -42,5 +45,10 @@
     width: 90%;
     margin: 35px 5% 50px 5%;
   }
+}
 
+@media all and (max-width: 639px) {
+    .advantages__header {
+        font-size: 1.35rem;
+    }
 }
