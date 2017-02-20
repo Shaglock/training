@@ -66,6 +66,8 @@
     right: 15px;
     bottom: 15px;
 
+    cursor: pointer;
+
     color: white;
     border: none;
     background-color: transparent;
