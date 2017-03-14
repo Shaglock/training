@@ -1,0 +1,36 @@
+
+
+.navigation__list {
+    display: flex;
+}
+
+.navigation__list-item {
+    font-size: 12px;
+
+    margin: 0 15px;
+    padding: 38px 0;
+
+    cursor: pointer;
+}
+
+.navigation__link {
+    text-decoration: none;
+}
+
+.navigation__text {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: #9daeb6;
+}
+
+.navigation__button {
+    font-size: 12px;
+
+    padding: 16px 44px;
+
+    align-self: center;
+}

@@ -1,0 +1,29 @@
+.header {
+    min-height: 696px;
+
+    background: url(images/header.jpg) center center no-repeat;
+    background-size: cover;
+}
+.header__logo {
+    display: flex;
+
+    align-items: center;
+}
+
+.header__navigation {
+    display: flex;
+    flex: 1 auto;
+}
+
+.header__jumbotron {
+    flex: 1 1 auto;
+
+    margin-top: 124px;
+
+    border: solid white 3px;
+}
+.header_translucent {
+    width: 100%;
+
+    background: rgba(255, 255, 255, 0.4);
+}

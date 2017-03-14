@@ -1,0 +1,11 @@
+.company-logos {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.company-logo__img {
+    margin: 70px 0;
+}

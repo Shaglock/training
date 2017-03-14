@@ -1,0 +1,38 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.heading_small {
+    align-items: flex-start;
+}
+
+.heading__icon {
+    font-size: 7px;
+
+    margin-top: 70px;
+    margin-bottom: 35px;
+
+    opacity: 0.2;
+}
+
+.heading__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2em;
+    font-weight: bold;
+
+    margin-bottom: 70px;
+
+    text-transform: uppercase;
+
+    color: rgb(44, 46, 55);
+}
+
+.heading__text_small {
+    font-size: 1.43em;
+
+    margin-bottom: 25px;
+}

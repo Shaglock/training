@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bringin';
+    src: url('bringinregular/bringin-webfont.eot');
+    src: url('bringinregular/bringin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bringinregular/bringin-webfont.woff2') format('woff2'),
+         url('bringinregular/bringin-webfont.woff') format('woff'),
+         url('bringinregular/bringin-webfont.ttf') format('truetype'),
+         url('bringinregular/bringin-webfont.svg#bringinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

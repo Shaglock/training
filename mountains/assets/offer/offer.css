@@ -1,0 +1,27 @@
+.offer {
+    min-height: 651px;
+    margin-top: 90px;
+
+    background: url(images/mountains.png) center center no-repeat #f6f4f4;
+    background-size: cover;
+}
+
+.offer__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.625;
+
+    color: rgb(148, 148, 148);
+}
+
+.offer__warning {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+
+    color: rgb(54, 174, 234);
+}
+.offer__icon {
+    margin-right: 8px;
+
+    color: rgb(54, 174, 234);
+}

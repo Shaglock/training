@@ -1,0 +1,27 @@
+.footer {
+    background-color: #3e5d66;
+}
+
+.footer-items {
+    display: flex;
+
+    padding: 20px 0;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__rights {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+    color: #78aebe;
+}
+
+.footer__phone {
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+
+    color: #78aebe;
+}

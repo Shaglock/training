@@ -1,0 +1,6 @@
+.travel {
+    min-height: 1092px;
+
+    background: url(images/continents_blue.png) center 75px no-repeat;
+    background-size: contain;
+}

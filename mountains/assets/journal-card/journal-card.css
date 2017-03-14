@@ -1,0 +1,76 @@
+.journal-card {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 33.33333%;
+    height: 380px;
+
+    text-align: center;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.13);
+}
+.journal-card__text {
+    font-family: 'Open Sans', sans-serif;
+
+    padding: 45px 30px;
+}
+.journal-card__icon {
+    font-size: 74px;
+
+    color: white;
+}
+
+.journal-card__name {
+    font-size: 11px;
+    font-weight: bold;
+
+    margin-bottom: 55px;
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #16b5ef;
+}
+
+.journal-card__title {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+
+    color: rgb(33, 33, 33);
+}
+.journal-card__description {
+    font-size: 14px;
+    line-height: 1.43;
+
+    margin-bottom: 40px;
+
+    color: #777777;
+}
+
+.journal-card__number {
+    font-family: 'Times New Roman', sans-serif;
+    font-style: italic;
+}
+.journal-card_heart {
+    background: url(images/journal.png) center center no-repeat;
+
+    justify-content: center;
+}
+.journal-card_droplet {
+    background: url(images/journal2.png) center center no-repeat;
+
+    justify-content: center;
+}
+.journal-card_leaf {
+    background: url(images/journal3.png) center center no-repeat;
+
+    justify-content: center;
+}

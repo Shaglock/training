@@ -1,0 +1,19 @@
+.logo {
+    margin-right: 50px;
+}
+
+.logo__text {
+    font-family: 'Bringin',sans-serif;
+    font-size: 1.9em;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo__text_blue {
+    color: #36aeea;
+}
+
+.logo__text_gray {
+    color: #95a5ad;
+}

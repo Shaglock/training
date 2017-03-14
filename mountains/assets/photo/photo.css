@@ -1,0 +1,42 @@
+.photo {
+    margin-bottom: 30px;
+
+    background: center center no-repeat;
+    background-size: cover;
+}
+
+.photo_1 {
+    height: 343px;
+
+    background-image: url(images/gallery1.png);
+}
+
+.photo_2 {
+    height: 281px;
+
+    background-image: url(images/gallery2.png);
+}
+
+.photo_3 {
+    height: 243px;
+
+    background-image: url(images/gallery3.png);
+}
+
+.photo_4 {
+    height: 381px;
+
+    background-image: url(images/gallery4.png);
+}
+
+.photo_5 {
+    height: 343px;
+
+    background-image: url(images/gallery5.png);
+}
+
+.photo_6 {
+    height: 281px;
+
+    background-image: url(images/gallery6.png);
+}

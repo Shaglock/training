@@ -1,0 +1,51 @@
+.feedback-comments {
+    display: flex;
+
+    justify-content: space-between;
+}
+.feedback-comment {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.feedback-comment__icon {
+    font-size: 1.375em;
+
+    color: #bcbcbc;
+}
+
+
+.feedback-comment__content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.4;
+
+    margin: 20px 0;
+
+    text-align: justify;
+
+    color: #bcbcbc;
+}
+
+.feedback-comment__client {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+
+    display: flex;
+
+    color: #36aeea;
+
+    align-items: center;
+}
+
+.feedback-comment__client-photo {
+    margin-right: 20px;
+
+    border-radius: 50%;
+}
+
+.feedback-comment__client-name {
+    font-weight: bold;
+
+    margin-right: 5px;
+}

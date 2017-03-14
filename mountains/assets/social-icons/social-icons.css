@@ -1,0 +1,21 @@
+.social-icons {
+    display: flex;
+
+    justify-content: center;
+}
+
+.social-icons__twitter {
+    /*background: url(images/twitter.png) center center no-repeat;
+  background-size: cover;*/
+}
+
+.social-icons__facebook {
+    /*background: url(images/facebook.png) center center no-repeat;
+  background-size: cover;*/
+    padding: 0 5px;
+}
+
+.social-icons__vk {
+    /*background: url(images/vk.png) center center no-repeat;
+  background-size: cover;*/
+}

@@ -1,0 +1,79 @@
+.logo {
+    display: block;
+    float: left;
+}
+
+.logo__image {
+    float: left;
+
+    width: 85px;
+    height: 85px;
+}
+
+.logo__text {
+    font-family: 'Lucida Sans';
+    font-size: 2.5rem;
+    font-style: italic;
+
+    float: left;
+
+    padding-top: 25px;
+    padding-left: 3px;
+
+    text-transform: uppercase;
+
+    color: white;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42);
+}
+
+.logo__image_small {
+    width: 53px;
+    height: 53px;
+}
+
+.logo__text_small {
+    font-size: 1.8rem;
+
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+@media all and (max-width: 1100px) {
+    .logo__image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo__image_small {
+        width: 32px;
+        height: 32px;
+    }
+
+    .logo__text {
+        font-size: 1.23rem;
+
+        padding-top: 12px;
+        padding-left: 4px;
+    }
+
+    .logo__text_small {
+        font-size: 16px;
+
+        padding-top: 9px;
+        padding-left: 12px;
+    }
+}
+
+@media all and (max-width: 639px) {
+    .logo__image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .logo__text {
+        font-size: 0.6rem;
+
+        padding-top: 5px;
+        padding-left: 3px;
+    }
+}

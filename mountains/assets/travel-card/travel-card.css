@@ -1,0 +1,60 @@
+.travel-cards {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.travel-card {
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    width: 200px;
+    height: 382px;
+    padding: 15px 20px 20px 12px;
+
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.13);
+}
+
+
+
+
+
+
+
+.travel-card__price {
+    font-size: 26px;
+    font-weight: 800;
+
+    text-align: right;
+}
+
+.travel-card__price_striked {
+    font-size: 18px;
+    font-weight: 400;
+
+    text-decoration: line-through;
+}
+
+.travel-card_carpathian {
+    background: url(images/travel-carp.png) -20px -20px no-repeat;
+}
+.travel-card_alps {
+    background: url(images/travel-alps.png)  no-repeat;
+}
+
+.travel-card_pyrenees {
+    background: url(images/travel-pyrenees.png)  no-repeat;
+}
+
+.travel-card_rocky {
+    background: url(images/travel-rocky.png)  no-repeat;
+}
+
+.travel-card_kavkaz {
+    background: url(images/travel-kavkaz.png)  no-repeat;
+}

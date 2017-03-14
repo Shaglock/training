@@ -1,0 +1,24 @@
+.gallery {
+    margin-bottom: 64px;
+}
+
+.gallery-container {
+    display: flex;
+
+    justify-content: space-between;
+}
+.gallery__item {
+    display: flex;
+
+    width: 25%;
+    padding: 0 15px;
+
+    flex-flow: column wrap;
+}
+.gallery__item_lg {
+    width: 41.666667%;
+}
+
+.gallery__item_md {
+    width: 33.33333%;
+}

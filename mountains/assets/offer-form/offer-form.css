@@ -1,0 +1,44 @@
+.offer-form {
+    display: flex;
+
+    width: 75%;
+    height: 62px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;    
+    background: white;
+
+    align-items: center;
+    justify-content: flex-end;;
+}
+
+.offer-form__content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+
+    padding: 0 20px;
+
+    color: rgb(132, 132, 132);
+}
+
+.offer-form__input {
+    flex: 1;
+
+    height: 35px;
+
+    border: none;
+}
+
+.offer-form__button {
+    margin-right: 3px;
+    padding: 16px 53px;
+}
+
+.offer-form__input:first-of-type {
+    border-right: 1px solid #ebebeb;
+}
+.offer-form__input:last-of-type {
+    margin-right: 10px;
+}
