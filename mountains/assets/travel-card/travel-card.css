@@ -20,12 +20,6 @@
     box-shadow: 0 0 15px rgba(0,0,0,0.13);
 }
 
-
-
-
-
-
-
 .travel-card__price {
     font-size: 26px;
     font-weight: 800;
@@ -41,20 +35,25 @@
 }
 
 .travel-card_carpathian {
-    background: url(images/travel-carp.png) -20px -20px no-repeat;
+    background: url(images/travel-carp.png) -20px -20px no-repeat, radial-gradient(circle, rgba(0,0,0,0.08) 0px, rgba(0,0,0,0) 2px);
+    background-size: auto auto, 4px 4px;
 }
 .travel-card_alps {
-    background: url(images/travel-alps.png)  no-repeat;
+    background: url(images/travel-alps.png)  no-repeat, radial-gradient(circle, rgba(0,0,0,0.08) 0px, rgba(0,0,0,0) 2px);
+    background-size: auto auto, 4px 4px;
 }
 
 .travel-card_pyrenees {
-    background: url(images/travel-pyrenees.png)  no-repeat;
+    background: url(images/travel-pyrenees.png)  no-repeat, radial-gradient(circle, rgba(0,0,0,0.08) 0px, rgba(0,0,0,0) 2px);
+    background-size: auto auto, 4px 4px;
 }
 
 .travel-card_rocky {
-    background: url(images/travel-rocky.png)  no-repeat;
+    background: url(images/travel-rocky.png)  no-repeat, radial-gradient(circle, rgba(0,0,0,0.08) 0px, rgba(0,0,0,0) 2px);
+    background-size: auto auto, 4px 4px;
 }
 
 .travel-card_kavkaz {
-    background: url(images/travel-kavkaz.png)  no-repeat;
+    background: url(images/travel-kavkaz.png)  no-repeat, radial-gradient(circle, rgba(0,0,0,0.08) 0px, rgba(0,0,0,0) 2px);
+    background-size: auto auto, 4px 4px;
 }
