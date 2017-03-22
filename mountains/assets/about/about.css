@@ -1,26 +1,31 @@
 .about {
     position: relative;
 
+    overflow: hidden;
+
     box-sizing: border-box;
     min-height: 667px;
     padding-top: 130px;
 
-    background: url(images/about-bg.png) center 15% no-repeat #f6f4f4;
+    background: url(images/about-bg.jpg) center 15% no-repeat;
+    background-color: var(--about-bg);
 }
 
 .about__text {
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     line-height: 1.85;
 
     margin-bottom: 30px;
 
     text-align: left;
 
-    color: rgb(148, 148, 148);
+    color: var(--about-text);
 }
 
 .about__button {
+    font-size: 12px;
+
     padding: 15px 25px;
 }
 
@@ -38,4 +43,19 @@
 }
 .about-wrapper {
     width: 33%;
+}
+
+@media all and (max-width: 900px) {
+    .about {
+        background: url(images/about-bg.jpg) no-repeat;
+    }
+    .about-wrapper {
+        width: 80%;
+    }
+    .about__image_large {
+        display: none;
+    }
+    .about__image_small {
+        display: none;
+    }
 }

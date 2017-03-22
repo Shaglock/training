@@ -9,31 +9,31 @@
 }
 
 .feedback-comment__icon {
-    font-size: 1.375em;
+    font-size: 1.375rem;
 
-    color: #bcbcbc;
+    color: var(--content);
 }
 
 
 .feedback-comment__content {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     line-height: 1.4;
 
     margin: 20px 0;
 
     text-align: justify;
 
-    color: #bcbcbc;
+    color: var(--content);
 }
 
 .feedback-comment__client {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
 
     display: flex;
 
-    color: #36aeea;
+    color: var(--client);
 
     align-items: center;
 }
@@ -48,4 +48,14 @@
     font-weight: bold;
 
     margin-right: 5px;
+}
+
+@media all and (max-width: 640px) {
+    .feedback-comments {
+        flex-wrap: wrap;
+    }
+    .feedback-comment {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }

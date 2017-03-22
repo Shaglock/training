@@ -9,3 +9,17 @@
 .company-logo__img {
     margin: 70px 0;
 }
+
+@media all and (max-width: 640px) {
+    .company-logos {
+        flex-wrap: wrap;
+    }
+    .company-logo__img {
+        margin: 20px 0;
+    }
+    .company-logo {
+        width: 33.33%;
+
+        text-align: center;
+    }
+}

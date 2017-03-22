@@ -1,1 +1,4 @@
-
+.feedback {
+    background: url(images/feedback.jpg) no-repeat;
+    background-size: cover;
+}

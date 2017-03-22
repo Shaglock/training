@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="assets/contacts-panel/contacts-panel.css" type="text/css">
         <link rel="stylesheet" href="assets/footer/footer.css" type="text/css">
         <link rel="stylesheet" href="assets/social-icons/social-icons.css" type="text/css">
+        <link rel="stylesheet" href="assets/color-variables.css" type="text/css">
         <link rel="stylesheet" href="style.css" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,400,400i,600,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -46,7 +47,7 @@
                         <div class="header__logo">
                             <div class="logo">
                                 <a href="#" class="logo__text">
-                                    <span class="logo__text_blue">Moun</span><span class="logo__text_gray">tains</span>
+                                    <span class="logo__text--first-half">Moun</span><span class="logo__text--second-half">tains</span>
                                 </a>
                             </div>
                         </div>
@@ -90,8 +91,8 @@
                                     </li>
                                 </ul>
                             </div>
+                            <button class="button navigation__button button_white" type="button" name="Call us">Call us</button>
                         </nav>
-                        <button class="navigation__button button button_white" type="button" name="Call us">Call us</button>
                     </div>
                 </div>
             </div>
@@ -107,7 +108,7 @@
                         <p class="jumbotron__text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid
                         </p>
-                        <button class="jumbotron__button button" type="button" name="Order now">Order now</button>
+                        <button class="button jumbotron__button" type="button" name="Order now">Order now</button>
                     </div>
                 </div>
             </div>
@@ -126,7 +127,7 @@
                         interdum nisl libero, pretium egestas purus eleifend
                         vitae. Mauris suscipit vel lectus at luctus.
                         </p>
-                        <button class="about__button button" type="button" name="Read more">Read more</button>
+                        <button class="button about__button" type="button" name="Read more">Read more</button>
                     </div>
                 </div>
                 <img class="about__image_small" src="assets/about/images/about1.jpg" alt="about__image_small">
@@ -137,62 +138,64 @@
                     <span class="heading__icon icon-wave"></span>
                     <span class="heading__text">Our journal</span>
                 </div>
-                <div class="journal-cards container">
-                    <div class="journal-card journal-card_heart">
-                        <span class="journal-card__icon icon-like"></span>
-                    </div>
-                    <div class="journal-card">
-                        <div class="journal-card__text">
-                            <p class="journal-card__name">
-                                Love
-                            </p>
-                            <p class="journal-card__title">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            </p>
-                            <p class="journal-card__description">
-                                You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves? Tell everyone about your experience and skills.
-                            </p>
-                            <p class="journal-card__number">
-                                01
-                            </p>
+                <div class="container">
+                    <div class="journal-cards">
+                        <div class="journal-card journal-card_heart">
+                            <span class="journal-card__icon icon-like"></span>
                         </div>
-                    </div>
-                    <div class="journal-card journal-card_droplet">
-                        <span class="journal-card__icon icon-droplet"></span>
-                    </div>
-                    <div class="journal-card">
-                        <div class="journal-card__text">
-                            <p class="journal-card__name">
-                                Tree
-                            </p>
-                            <p class="journal-card__title">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                            </p>
-                            <p class="journal-card__description">
-                                The way to a successful brand is hard, but always very interesting. Share the full story of your project – from the very first day until now.
-                            </p>
-                            <p class="journal-card__number">
-                                02
-                            </p>
+                        <div class="journal-card">
+                            <div class="journal-card__text">
+                                <p class="journal-card__name">
+                                    Love
+                                </p>
+                                <p class="journal-card__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                </p>
+                                <p class="journal-card__description">
+                                    You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves? Tell everyone about your experience and skills.
+                                </p>
+                                <p class="journal-card__number">
+                                    01
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="journal-card journal-card_leaf">
-                        <span class="journal-card__icon icon-leaf"></span>
-                    </div>
-                    <div class="journal-card">
-                        <div class="journal-card__text">
-                            <p class="journal-card__name">
-                                Water
-                            </p>
-                            <p class="journal-card__title">
-                                Little pieces of our proudness
-                            </p>
-                            <p class="journal-card__description">
-                                What do you do better than your competitors? What are you proud of? What details and advantages of your product you want people to know about?
-                            </p>
-                            <p class="journal-card__number">
-                                03
-                            </p>
+                        <div class="journal-card journal-card_droplet">
+                            <span class="journal-card__icon icon-droplet"></span>
+                        </div>
+                        <div class="journal-card">
+                            <div class="journal-card__text">
+                                <p class="journal-card__name">
+                                    Tree
+                                </p>
+                                <p class="journal-card__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                </p>
+                                <p class="journal-card__description">
+                                    The way to a successful brand is hard, but always very interesting. Share the full story of your project – from the very first day until now.
+                                </p>
+                                <p class="journal-card__number">
+                                    02
+                                </p>
+                            </div>
+                        </div>
+                        <div class="journal-card journal-card_leaf">
+                            <span class="journal-card__icon icon-leaf"></span>
+                        </div>
+                        <div class="journal-card">
+                            <div class="journal-card__text">
+                                <p class="journal-card__name">
+                                    Water
+                                </p>
+                                <p class="journal-card__title">
+                                    Little pieces of our proudness
+                                </p>
+                                <p class="journal-card__description">
+                                    What do you do better than your competitors? What are you proud of? What details and advantages of your product you want people to know about?
+                                </p>
+                                <p class="journal-card__number">
+                                    03
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -208,15 +211,19 @@
                         Aliquam sed posuere urna, et gravida nisl. Praesent <br> interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.
                     </p>
                     <form class="offer-form" action="index.html" method="post">
-                        <span class="offer-form__content">
-                            Your name:
-                        </span>
-                        <input class="offer-form__input" type="text" name="name">
-                        <span class="offer-form__content">
-                            Your phone:
-                        </span>
-                        <input class="offer-form__input" type="phone" name="phone">
-                        <button class="offer-form__button button" type="button" name="Order now">
+                        <div class="offer-form__content">
+                            <span class="offer-form__label">
+                                Your name:
+                            </span>
+                            <input class="offer-form__input" type="text" name="name">
+                        </div>
+                        <div class="offer-form__content">
+                            <span class="offer-form__label">
+                                Your phone:
+                            </span>
+                            <input class="offer-form__input" type="phone" name="phone">
+                        </div>
+                        <button class="button offer-form__button" type="button" name="Order now">
                         Order now
                         </button>
                     </form>
@@ -286,95 +293,68 @@
                     <div class="travel-cards">
                         <!-- TODO GRADIENT UZOR NA PIK4i  -->
                         <div class="travel-card travel-card_carpathian">
-                            <div class="travel-card__stars">
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                            </div>
+                            <span class="travel-card__stars icon-4stars"></span>
                             <div class="travel-card__title">
                                 Carpathian
                             </div>
                             <div class="travel-card__description">
-                                Lorem ipsum dolor sit amet, consectetur.
+                                Lorem ipsum dolor si amet, consectetur.
                             </div>
-                            <div class="travel-card__price">
+                            <div class="travel-card__prices">
                                 <span class="travel-card__price_striked">$3150</span>
-                                <span>$793</span>
+                                <span class="travel-card__price">$793</span>
                             </div>
                         </div>
                         <div class="travel-card travel-card_alps">
-                            <div class="travel-card__stars">
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                            </div>
+                            <span class="travel-card__stars icon-5stars"></span>
                             <div class="travel-card__title">
                                 Alps
                             </div>
                             <div class="travel-card__description">
-                                Lorem ipsum dolor sit amet, consectetur.
+                                Lorem ipsum dolor si amet, consectetur.
                             </div>
-                            <div class="travel-card__price">
+                            <div class="travel-card__prices">
                                 <span class="travel-card__price_striked">$3150</span>
-                                <span>$1893</span>
+                                <span class="travel-card__price">$1893</span>
                             </div>
                         </div>
                         <div class="travel-card travel-card_pyrenees">
-                            <div class="travel-card__stars">
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                            </div>
+                            <span class="travel-card__stars icon-5stars"></span>
                             <div class="travel-card__title">
                                 Pyrenees
                             </div>
                             <div class="travel-card__description">
-                                Lorem ipsum dolor sit amet, consectetur.
+                                Lorem ipsum dolor si amet, consectetur.
                             </div>
-                            <div class="travel-card__price">
+                            <div class="travel-card__prices">
                                 <span class="travel-card__price_striked">$3150</span>
-                                <span>$2593</span>
+                                <span class="travel-card__price">$2593</span>
                             </div>
                         </div>
                         <div class="travel-card travel-card_rocky">
-                            <div class="travel-card__stars">
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                            </div>
+                            <span class="travel-card__stars icon-5stars"></span>
                             <div class="travel-card__title">
                                 Rocky
                             </div>
                             <div class="travel-card__description">
-                                Lorem ipsum dolor sit amet, consectetur.
+                                Lorem ipsum dolor si amet, consectetur.
                             </div>
-                            <div class="travel-card__price">
+                            <div class="travel-card__prices">
                                 <span class="travel-card__price_striked">$3150</span>
-                                <span>$2123</span>
+                                <span class="travel-card__price">$2123</span>
                             </div>
                         </div>
                         <div class="travel-card travel-card_kavkaz">
-                            <div class="travel-card__stars">
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                                <span class="travel-card__stars icon-star"></span>
-                            </div>
+                            <span class="travel-card__stars icon-3stars"></span>
                             <div class="travel-card__title">
                                 Kavkaz
                             </div>
                             <div class="travel-card__description">
-                                Lorem ipsum dolor sit amet, consectetur.
+                                Lorem ipsum dolor si amet, consectetur.
                             </div>
-                            <div class="travel-card__price">
+                            <div class="travel-card__prices">
                                 <span class="travel-card__price_striked">$3150</span>
-                                <span>$593</span>
+                                <span class="travel-card__price">$593</span>
                             </div>
                         </div>
                     </div>
@@ -394,11 +374,11 @@
                             <div class="photo photo_1"></div>
                             <div class="photo photo_2"></div>
                         </div>
-                        <div class="gallery__item gallery__item_md">
+                        <div class="gallery__item gallery__item--md">
                             <div class="photo photo_3"></div>
                             <div class="photo photo_4"></div>
                         </div>
-                        <div class="gallery__item gallery__item_lg">
+                        <div class="gallery__item gallery__item--lg">
                             <div class="photo photo_5"></div>
                             <div class="photo photo_6"></div>
                         </div>
@@ -460,19 +440,19 @@
                     </div>
                   </div>
                 </div>
-            </section>
-            <section class="contacts">
                 <div class="container">
-                    <div class="contacts-panel">
-                        <span class="contacts-panel__title">Contacts</span>
-                        <br>
-                        <span class="contacts-panel__text">Sign up for newsletter to receive updates</span>
-                        <form class="contacts-form" action="index.html" method="post">
-                            <input class="contacts-form__input" type="text" name="name" placeholder="Name">
-                            <input class="contacts-form__input" type="phone" name="phone" placeholder="Phone">
-                            <input class="contacts-form__input" type="email" name="email" placeholder="E-Mail">
-                            <button class="contacts-form__button button" type="button" name="Send">Send</button>
-                        </form>
+                    <div class="contacts-panel-wrapper">
+                        <div class="contacts-panel">
+                            <span class="contacts-panel__title">Contacts</span>
+                            <br>
+                            <span class="contacts-panel__text">Sign up for newsletter to receive updates</span>
+                            <form class="contacts-form" action="index.html" method="post">
+                                <input class="contacts-form__input" type="text" name="name" placeholder="Name">
+                                <input class="contacts-form__input" type="phone" name="phone" placeholder="Phone">
+                                <input class="contacts-form__input" type="email" name="email" placeholder="E-Mail">
+                                <button class="button contacts-form__button" type="button" name="Send">Send</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </section>

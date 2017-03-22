@@ -1,5 +1,5 @@
 .footer {
-    background-color: #3e5d66;
+    background-color: var(--footer-bg);
 }
 
 .footer-items {
@@ -15,7 +15,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 
-    color: #78aebe;
+    color: var(--footer-text);
 }
 
 .footer__phone {
@@ -23,5 +23,18 @@
     font-size: 27px;
     font-weight: bold;
 
-    color: #78aebe;
+    color: var(--footer-text);
+}
+
+@media all and (max-width: 640px) {
+    .footer-items {
+        padding: 5px 0;
+    }
+    .footer__rights {
+        font-size: 9px;
+    }
+
+    .footer__phone {
+        font-size: 0.9rem;
+    }
 }

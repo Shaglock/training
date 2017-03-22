@@ -1,0 +1,71 @@
+.about {
+    --about-text: rgb(148, 148, 148);
+    --about-bg: #f6f4f4;
+}
+.offer {
+    --offer-text: rgb(148, 148, 148);
+    --offer-bg: #f6f4f4;
+    --offer-warning: rgb(54, 174, 234);
+}
+.offer-form {
+    --form-bg: white;
+    --input-border: #ebebeb;
+    --label: rgb(132, 132, 132);
+}
+.travel-card {
+    --card-shadow: rgba(0,0,0,0.13);
+    --card-text: white;
+}
+.header {
+    --header-translucent: rgba(255, 255, 255, 0.4);
+    --jumbotron-border: white;
+}
+.heading {
+    --heading-text: rgb(44, 46, 55);
+}
+.journal-card {
+    --card-shadow: rgba(0,0,0,0.13);
+    --card-name: #16b5ef;
+    --card-title: rgb(33, 33, 33);
+    --card-description: #777777;
+    --card-icon: white;
+}
+.button {
+    --button-color: #36aeea;
+    --button-text: white;
+}
+.logo {
+    --first-half: #36aeea;
+    --second-half: #95a5ad;
+}
+.feedback-comment {
+    --client: #36aeea;
+    --content: #bcbcbc;
+}
+.contacts-panel {
+    --title: #36aeea;
+    --panel-shadow: rgba(0,0,0,0.25);
+    --panel-text: #383e4a;
+}
+.work-step {
+    --blue: #36aeea;
+    --text-primary: rgb(44, 46, 55);
+    --text-secondary: #bfbfbf;
+    --hexagon-bg: #f0f3f6;
+}
+.logos {
+    --bg-color: #f8f9fa;
+}
+.navigation {
+    --nav-text: #9daeb6;
+    --list-item-shadow: #36aeea;
+}
+.jumbotron {
+    --jumbotron-text: #bcc4c9;
+    --jumbotron-title: white;
+    --jumbotron-title-secondary: #56c7ff;
+}
+.footer {
+    --footer-bg:#3e5d66;
+    --footer-text:#78aebe;
+}

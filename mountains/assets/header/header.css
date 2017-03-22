@@ -13,6 +13,9 @@
 .header__navigation {
     display: flex;
     flex: 1 auto;
+
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header__jumbotron {
@@ -20,10 +23,16 @@
 
     margin-top: 124px;
 
-    border: solid white 3px;
+    border: solid var(--jumbotron-border) 3px;
 }
 .header_translucent {
     width: 100%;
 
-    background: rgba(255, 255, 255, 0.4);
+    background: var(--header-translucent);
+}
+
+@media all and (max-width: 1000px) {
+    .header__jumbotron {
+        border: none;
+    }
 }

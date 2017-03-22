@@ -1,9 +1,13 @@
 .container {
+    box-sizing: border-box;
     width: 1140px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;
 }
-.flex {
-    display: flex;
+
+@media all and (max-width: 1170px) {
+    .container {
+        width: 100%;
+    }
 }

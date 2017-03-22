@@ -2,17 +2,22 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 
+    cursor: pointer;
     text-transform: uppercase;
 
-    color: white;
-    border: 3px solid #36aeea;
+    color: var(--button-text);
+    border: 3px solid var(--button-color);
     border-radius: 5px;
-    background-color: #36aeea;
+    background-color: var(--button-color);
 }
 
 .button_white {
     font-family: 'Raleway', sans-serif;
 
-    color: #36aeea;
+    color: var(--button-color);
     background-color: transparent;
+}
+
+.button:hover {
+    box-shadow: black 0 0 7px;
 }

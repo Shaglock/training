@@ -21,18 +21,28 @@
 
 .heading__text {
     font-family: 'Open Sans', sans-serif;
-    font-size: 2.2em;
+    font-size: 2.2rem;
     font-weight: bold;
 
     margin-bottom: 70px;
 
     text-transform: uppercase;
 
-    color: rgb(44, 46, 55);
+    color: var(--heading-text);
 }
 
 .heading__text_small {
-    font-size: 1.43em;
+    font-size: 1.43rem;
 
     margin-bottom: 25px;
+}
+
+@media all and (max-width: 600px) {
+    .heading__text {
+        font-size: 1.875rem;
+    }
+
+    .heading__text_small {
+        font-size: 1.25rem;
+    }
 }

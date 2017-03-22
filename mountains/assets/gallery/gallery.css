@@ -15,10 +15,19 @@
 
     flex-flow: column wrap;
 }
-.gallery__item_lg {
+.gallery__item--lg {
     width: 41.666667%;
 }
 
-.gallery__item_md {
+.gallery__item--md {
     width: 33.33333%;
+}
+
+@media all and (max-width: 640px) {
+    .gallery-container {
+        flex-flow: column;
+    }
+    .gallery__item {
+        width: 100%;
+    }
 }

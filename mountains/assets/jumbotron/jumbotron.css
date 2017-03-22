@@ -7,38 +7,56 @@
 
 .jumbotron__text {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     line-height: 1.6;
 
     margin-top: -15px;
     margin-bottom: 30px;
 
-    color: #bcc4c9;
+    color: var(--jumbotron-text);
 }
 
 .jumbotron__title {
     font-family: 'Open Sans', sans-serif;
-    font-size: 3.125em;
+    font-size: 3.125rem;
     font-weight: bolder;
 
     letter-spacing: 6px;
     text-transform: uppercase;
 
-    color: #ffffff;
+    color: var(--jumbotron-title);
 }
 
 .jumbotron__title_secondary {
     font-family: 'Bringin', sans-serif;
-    font-size: 4.125em;
+    font-size: 4.125rem;
 
     position: relative;
     top: -18px;
 
-    color: #56c7ff;
+    color: var(--jumbotron-title-secondary);
 }
 
 .jumbotron__button {
     font-family: 'Raleway', sans-serif;
 
     padding: 25px 75px;
+}
+
+@media all and (max-width: 640px) {
+    .jumbotron {
+        width: 80%;
+    }
+    .jumbotron__title {
+        font-size: 2.7rem;
+    }
+    .jumbotron__title_secondary {
+        font-size: 3.1rem;
+    }
+    .jumbotron__text {
+        width: 80%;
+    }
+    .jumbotron__button {
+        padding: 25px 60px;
+    }
 }

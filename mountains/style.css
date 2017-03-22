@@ -54,6 +54,15 @@
 .icon-star:before {
   content: "\e90a";
 }
+.icon-3stars:before {
+  content: "\e90a\e90a\e90a";
+}
+.icon-4stars:before {
+  content: "\e90a\e90a\e90a\e90a";
+}
+.icon-5stars:before {
+  content: "\e90a\e90a\e90a\e90a\e90a";
+}
 .icon-quote:before {
   content: "\e903";
 }

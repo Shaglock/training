@@ -4,16 +4,26 @@
 
 .logo__text {
     font-family: 'Bringin',sans-serif;
-    font-size: 1.9em;
+    font-size: 1.9rem;
 
     text-align: center;
     text-decoration: none;
 }
 
-.logo__text_blue {
-    color: #36aeea;
+.logo__text--first-half {
+    color: var(--first-half);
 }
 
-.logo__text_gray {
-    color: #95a5ad;
+.logo__text--second-half {
+    color: var(--second-half);
+}
+
+.logo__text:hover {
+    font-size: 2rem;
+}
+
+@media all and (max-width: 1170px) {
+    .logo {
+        margin-right: 0;
+    }
 }
